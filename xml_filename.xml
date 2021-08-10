@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<annotation>
+	<object>
+		<name>person</name>
+		<bndbox>
+			<xmin>26</xmin>
+			<ymin>0</ymin>
+			<xmax>51</xmax>
+			<ymax>1</ymax>
+		</bndbox>
+	</object>
+</annotation>
