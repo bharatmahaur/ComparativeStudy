@@ -1,0 +1,13 @@
+traffic_light 0 41 5 90
+traffic_light 261 206 285 226
+traffic_light 251 206 263 226
+traffic_light 12 46 32 90
+traffic_sign 531 156 545 194
+traffic_sign 226 145 266 159
+traffic_sign 234 81 273 98
+person 216 233 229 272
+car 93 240 125 269
+car 0 198 128 360
+car 393 287 639 360
+traffic_sign 61 62 91 94
+traffic_sign 256 190 290 200

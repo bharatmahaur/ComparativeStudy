@@ -1,0 +1,7 @@
+car 604 0 640 198
+person 410 0 439 27
+person 397 0 418 37
+person 191 0 218 42
+car 0 0 65 84
+person 459 0 481 30
+person 439 0 456 24
