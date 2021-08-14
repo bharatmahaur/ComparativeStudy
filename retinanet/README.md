@@ -1,4 +1,7 @@
-# RetinaNet-Tensorflow
+# RetinaNet with ResNet-101 FPN
+
+- Paper RetinaNet: https://arxiv.org/abs/1708.02002
+- Source code: https://github.com/facebookresearch/detectron
 
 ## If you want to use this project, you should first create some folders.<br>
 checkpoint: to save your weight;<br>
@@ -7,7 +10,7 @@ log/val: to write the precision and recall while evaluating;<br>
 tfrecords: the training, val dataset;<br>
 
 ## Running
-The weight files are [here](https://pan.baidu.com/s/19KiLKS77gwPdW9QQgDPpjg), the passwoard is tib7, download it and put it into the checkpoint folder.<br>
+Download the weight files and put it into the checkpoint folder.<br>
 Attention: The Restore path in the `test_images.py`, you can change it by yourself.<br>
 Finally, run the test_images like this: `python test_images.py --input_image=.... --Single_test=True --Output_dir=...`
 
@@ -21,6 +24,3 @@ Run the `training.py`, and use your own path to save the .ckpt
 
 ## Evaluate
 Run the `evaluation.py`
-
-## Attention 
-This model doesn't use the pre-trained weight, so the result is not so good. And I will update the code (pre-trained edition) in the future.
