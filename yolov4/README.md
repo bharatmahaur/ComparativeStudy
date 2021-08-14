@@ -1,10 +1,8 @@
-# YOLOv4_tensorflow2.x
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
+# RetinaNet with ResNeXt-101 FPN
 
-A minimal TensorFlow2.x implementation of YOLOv4.
-- Paper Yolo v4: https://arxiv.org/abs/2004.10934
-- Source code:https://github.com/AlexeyAB/darknet
-- More details: http://pjreddie.com/darknet/yolo/
+- Paper RetinaNet: https://arxiv.org/abs/2004.10934
+- Source code: https://github.com/AlexeyAB/darknet
+- 
 ## YOLOv4 Overview
 + Backbone：CSPDarkNet53
 + Neck：SPP，PAN
@@ -13,13 +11,6 @@ A minimal TensorFlow2.x implementation of YOLOv4.
 + Modified(Backbone) : Mish、CSP、MiWRC
 + Tricks (Detection) : CIoU、CmBN、SAT、Eliminate grid sensitivity
 + Modified(Detection): Mish、SPP、SAM、PAN、DIoU-NMS
-
-## Requirements
-- python == 3.6
-- tensorflow == 2.1.1
-- tensoflow-addons == 0.9.1
-- opencv-python == 4.2.0
-- easydict == 1.9
 
 ## Usage
 ### Train on PASCAL VOC 2012
@@ -62,5 +53,4 @@ A minimal TensorFlow2.x implementation of YOLOv4.
 - [x] Class label smoothing
 - [x] CIoU loss
 - [x] Focal loss
-## Reference
-+ tensorflow-yolov3 https://github.com/YunYang1994/tensorflow-yolov3
+
