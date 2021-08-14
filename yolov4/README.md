@@ -1,4 +1,4 @@
-# RetinaNet with ResNeXt-101 FPN
+# YOLOv4 with CSPDarkNet53
 
 - Paper RetinaNet: https://arxiv.org/abs/2004.10934
 - Source code: https://github.com/AlexeyAB/darknet
