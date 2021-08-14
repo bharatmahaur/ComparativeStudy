@@ -1,8 +1,7 @@
-# Mask R-CNN for Object Detection and Segmentation
+# RetinaNet with ResNeXt-101 FPN
 
-This is an implementation of [**Mask R-CNN**](https://arxiv.org/abs/1703.06870) on Python 3, Keras, and TensorFlow based on Matterport's [**version**](https://github.com/matterport/Mask_RCNN). The model generates bounding boxes and segmentation masks for each instance of an object in the image, usingFeature Pyramid Network (FPN) and a ResNet101 backbone.
-
-
+- Paper RetinaNet: https://arxiv.org/abs/1703.06870
+- Source code: https://github.com/facebookresearch/detectron2
 
 # Features:
 
@@ -99,7 +98,6 @@ Annotated image for this implementation is created by [VGG Image Annotator](http
 
 # Note
 
-* This implementation is well worked under TensorFlow 1.14.0, Keras 2.2.5, Cuda 10.0.130 and CuDNN 7.6.5
 * ```dataset.py``` must be modify for other custom dataset.
 * Training parameters configuration read [**here**](https://github.com/matterport/Mask_RCNN/wiki).
-* Fresh training can download the pre-trained weight [**here**](https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5) and places it in ```trained_weight\```
+* Fresh training can download the pre-trained weight and places it in ```trained_weight\```
