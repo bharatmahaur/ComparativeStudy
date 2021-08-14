@@ -1,7 +1,7 @@
 # SSD with VGG-16
 
-- Paper RetinaNet: https://arxiv.org/abs/1703.06870
-- Source code: https://github.com/facebookresearch/detectron2
+- Paper RetinaNet: https://arxiv.org/abs/1512.02325
+- Source code: https://github.com/weiliu89/caffe
 
 ## Project Structure
 
