@@ -1,10 +1,10 @@
-# py-R-FCN
-R-FCN: Object Detection via Region-based Fully Convolutional Networks
+# R-FCN with ResNet-101
+
+- Paper RetinaNet: https://arxiv.org/abs/1605.06409
+- Source code: https://github.com/daijifeng001/r-fcn
 
 
 **It is highly recommended to use the [MXNet version of R-FCN/Deformable R-FCN](https://github.com/msracver/Deformable-ConvNets), which supports multi-GPU train/test.**
-
-**WARNING: This code does not support CPU-only mode.** (See https://github.com/Orpine/py-R-FCN/issues/28).
 
 ### Disclaimer
 
@@ -33,44 +33,7 @@ And I've already provided two configuration files for you(w/ OHEM and w/o OHEM) 
 ### License
 
 R-FCN is released under the MIT License (refer to the LICENSE file for details).
-
-### Citing R-FCN
-
-If you find R-FCN useful in your research, please consider citing:
-
-    @article{dai16rfcn,
-        Author = {Jifeng Dai, Yi Li, Kaiming He, Jian Sun},
-        Title = {{R-FCN}: Object Detection via Region-based Fully Convolutional Networks},
-        Journal = {arXiv preprint arXiv:1605.06409},
-        Year = {2016}
-    }
     
-### Main Results
-
-#### joint training
-
-|                   | training data       | test data             | mAP@0.5   | time/img (Titian X)|
-|-------------------|:-------------------:|:---------------------:|:-----:|:------------------:|
-|R-FCN, ResNet-50  | VOC 07+12 trainval  | VOC 07 test           | 77.6% | 0.099sec|           
-|R-FCN, ResNet-101 | VOC 07+12 trainval  | VOC 07 test           | 79.4% | 0.136sec|            
-
-|                   | training data       | test data             | mAP@[0.5:0.95]   | time/img (Titian X)|
-|-------------------|:-------------------:|:---------------------:|:-----:|:------------------:|
-|R-FCN, ResNet-101  | COCO 2014 train     | COCO 2014 val         | 27.9% | 0.138sec          |
-
-#### alternative optimization
-
-|                   | training data       | test data             | mAP@0.5   | time/img (Titian X)|
-|-------------------|:-------------------:|:---------------------:|:-----:|:------------------:|
-|R-FCN, ResNet-50  | VOC 07+12 trainval  | VOC 07 test           | 77.4%| 0.099sec            |
-|R-FCN, ResNet-101 | VOC 07+12 trainval  | VOC 07 test           | 79.4%| 0.136sec           |
-
-
-[VOC 0712 model (trained on VOC07+12 trainval) of R-FCN](https://1drv.ms/u/s!AoN7vygOjLIQqUWHpY67oaC7mopf)
-
-[COCO model (trained on 2014 train) of R-FCN](https://1drv.ms/u/s!AoN7vygOjLIQqiZEmKSodg7UudD4)
-
-
 ### Requirements: software
 
 0. **`Important`** Please use the [Microsoft-version Caffe(@commit 1a2be8e)](https://github.com/Microsoft/caffe/tree/1a2be8ecf9ba318d516d79187845e90ac6e73197), this Caffe supports R-FCN layer, and the prototxt in this repository follows the Microsoft-version Caffe's layer name. You need to put the Caffe root folder under py-R-FCN folder, just like what py-faster-rcnn does.
@@ -198,7 +161,7 @@ Any NVIDIA GPU with 6GB or larger memory is OK(4GB is enough for ResNet-50).
     ln -s $VOCdevkit VOCdevkit0712
     ```
 
-5.  Please download ImageNet-pre-trained ResNet-50 and ResNet-100 model manually, and put them into `$RFCN_ROOT/data/imagenet_models`
+5.  Please download ImageNet-pre-trained ResNet-101 model manually, and put them into `$RFCN_ROOT/data/imagenet_models`
 8.  Then everything is done, you could train your own model.
 
 ### Usage
@@ -233,9 +196,3 @@ Test outputs are saved under:
 ```
 output/<experiment directory>/<dataset name>/<network snapshot name>/
 ```
-
-### Misc
-
-Tested on Ubuntu 14.04 with a Titan X / GTX1080 GPU and Intel Xeon CPU E5-2620 v2 @ 2.10GHz 
-
-py-faster-rcnn code can also work properly, but I do not add any other feature(such as ResNet and OHEM).
