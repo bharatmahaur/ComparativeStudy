@@ -1,0 +1,4 @@
+traffic_sign 251 295 308 357
+traffic_sign 206 300 221 322
+person 423 336 434 358
+person 564 324 574 348

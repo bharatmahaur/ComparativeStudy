@@ -1,0 +1,2 @@
+traffic_sign 285 287 297 298
+person 17 316 27 345
