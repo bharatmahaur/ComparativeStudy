@@ -100,4 +100,4 @@ Annotated image for this implementation is created by [VGG Image Annotator](http
 
 * ```dataset.py``` must be modify for other custom dataset.
 * Training parameters configuration read [**here**](https://github.com/matterport/Mask_RCNN/wiki).
-* Fresh training can download the pre-trained weight and places it in ```trained_weight\```
+* Fresh training can download the pre-trained weight [**here**](https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5) and places it in ```trained_weight\```
