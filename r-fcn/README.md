@@ -27,10 +27,6 @@ In conclusion:
 `BATCH_SIZE: -1` is required for OHEM
 
 And I've already provided two configuration files for you(w/ OHEM and w/o OHEM) under `experiments/cfgs` folder, you could just use them and needn't change anything.
-
-### License
-
-R-FCN is released under the MIT License (refer to the LICENSE file for details).
     
 ### Requirements: software
 
