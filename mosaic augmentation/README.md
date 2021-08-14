@@ -8,9 +8,8 @@ Demo1:
 
 Demo1 with bbox:
 
-![image](https://raw.githubusercontent.com/ComparativeStudy/blob/main/mosaic%20augmentation/reg_full_1.jpg)
+![image](https://github.com/bharatmahaur/ComparativeStudy/blob/main/mosaic%20augmentation/reg_full_1.jpg)
 
 Dataset come from:
 
 [BDD100K](https://doc.bdd100k.com/download.html)
-```
