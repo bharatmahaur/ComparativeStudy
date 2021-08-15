@@ -34,7 +34,6 @@
 │  └─ train.py               <- train a new model
 ├─ training/                 <- run configurations and saved checkpoints
 │  └─ run_*/                    created by src/train.py
-├─ LICENSE.md
 └─ README.md
 ```
 
