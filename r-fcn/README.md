@@ -4,7 +4,7 @@
 - Source code: https://github.com/daijifeng001/r-fcn
 
 
-### Disclaimer
+### Overview
 
 The official R-FCN code (written in MATLAB) is available [here](https://github.com/daijifeng001/R-FCN).
 
