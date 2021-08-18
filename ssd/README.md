@@ -6,7 +6,6 @@
 ## Structure
 
 ```
-.
 ├─ data/
 │  ├─ raw/                   <- downloaded archives
 │  │  ├─ voc2007/
