@@ -56,8 +56,7 @@ To train the model(s) in the paper, go to the folder:
 
 ## Trained Weights
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+Avaliable at:
 
 ## Citation
 If you use this code, please cite our paper:
