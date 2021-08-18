@@ -50,10 +50,10 @@ dataset should have the following structure:
 
 ## Mosiac Augmentation
 Go to the mosiac augmentation folder simply run [mosaic](https://github.com/bharatmahaur/ComparativeStudy/blob/main/mosaic%20augmentation/mosaic_data.ipynb)
-Some files in sample folder
-Input image from sample folder
+Added files in sample folder
 Output image:
-![image](https://github.com/bharatmahaur/ComparativeStudy/blob/main/mosaic%20augmentation/reg_full_1.jpg)
+
+<img src="https://github.com/bharatmahaur/ComparativeStudy/blob/main/mosaic%20augmentation/reg_full_1.jpg" width="auto" height="200">
 
 ## Training and Evaluation
 To train the model(s) use the mosiac output xml file and go to the individual folder for furthur instructions.
