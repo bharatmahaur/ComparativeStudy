@@ -1,6 +1,6 @@
 # R-FCN with ResNet-101
 
-- Paper RetinaNet: https://arxiv.org/abs/1605.06409
+- Paper : https://arxiv.org/abs/1605.06409
 - Source code: https://github.com/daijifeng001/r-fcn
 
 
