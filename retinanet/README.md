@@ -3,7 +3,7 @@
 - Paper : https://arxiv.org/abs/1708.02002
 - Source code: https://github.com/facebookresearch/detectron
 
-## If you want to use this project, you should first create some folders.<br>
+## First create some folders.<br>
 checkpoint: to save your weight;<br>
 log/train: to write the loss and learning rate while training;<br>
 log/val: to write the precision and recall while evaluating;<br>
