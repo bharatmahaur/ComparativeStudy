@@ -49,10 +49,10 @@ dataset should have the following structure:
 <br> 
 
 ## Mosiac Augmentation
-Go to the mosiac folder run :
+Go to the mosiac augmentation folder simply run [mosaic](https://github.com/bharatmahaur/ComparativeStudy/blob/main/mosaic%20augmentation/mosaic.py)
 
 ## Training and Evaluation
-To train the model(s) in the paper, go to the folder:
+To train the model(s) in the paper, go to the individual folder for furthur instructions.
 
 ## Trained Weights
 
