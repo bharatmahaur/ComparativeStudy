@@ -26,8 +26,6 @@ mkvirtualenv ComparativeStudy
 # Add library path to virtual env
 add2virtualenv ComparativeStudy
 
-# Install requirements
-cat requirements.txt | xargs -n 1 -L 1 pip install
 ```
 
 ## Datasets
