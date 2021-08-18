@@ -1,6 +1,6 @@
 # RetinaNet with ResNeXt-101 FPN
 
-- Paper RetinaNet: https://arxiv.org/abs/1703.06870
+- Paper : https://arxiv.org/abs/1703.06870
 - Source code: https://github.com/facebookresearch/detectron2
 
 # Features:
