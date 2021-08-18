@@ -2,16 +2,17 @@
 
 This repository is an implementation of a review paper on Python 3 (TensorFlow and Caffe).
 
-## Requirements
+## Experimental Setup
 
 Name | Supported Versions
 --- | --- |
-Ubuntu |18.04, 20.04
-Python | 3.7 ,3.8
-CUDA | 10.1 ,10.2, 11.0
-Cudnn | 7.6.5 , 8.0.1
-Tensorflow | 2.1 , 2.2, 2.3
-Caffe | 1.1
+Ubuntu |18.04.5
+Python | 3.6
+CUDA | 10.1
+Cudnn | 7.6.4
+OpenCV | 4.5.0
+Tensorflow | 2.1+
+Caffe | 1.0
 
 To install requirements virtualenv and virtualenvwrapper should be available on the target machine.
 
