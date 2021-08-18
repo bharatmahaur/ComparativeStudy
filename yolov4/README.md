@@ -13,7 +13,7 @@
 + Modified(Detection): Mish、SPP、SAM、PAN、DIoU-NMS
 
 ## Usage
-### Train on PASCAL VOC 2012
+### Train on BDD100K to PASCAL VOC 2012
 ```
 |——data
     |——dataset 
@@ -25,10 +25,9 @@
                 |——SegmentationClass
                 |——SegmentationObject
 ```
-1. Download the [PASCAL VOC 2012 dataset](http://host.robots.ox.ac.uk/pascal/VOC/).
-2. Unzip the file and place it in the 'dataset' folder, make sure the directory is like this : 
-3. Run ./data/write_voc_to_txt.py to generate voc2012.txt, which operation is essential. 
-4. Run train.py
+1. Unzip the file and place it in the 'dataset' folder, make sure the directory is like this : 
+2. Run ./data/write_voc_to_txt.py to generate voc2012.txt, which operation is essential. 
+3. Run train.py
 
 ## Project Schedule
 ### Data augmentation
