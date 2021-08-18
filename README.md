@@ -47,58 +47,27 @@ dataset should have the following structure:
                     ├── test
                     ├── train
                     └── val
-                   
-Download the KITTI Object Detection Dataset [here](http://www.cvlibs.net/datasets/kitti/eval_object.php). The KITTI
-dataset should have the following structure:
 <br> 
+
+## Mosiac Augmentation
+Go to the mosiac folder run :
+
+## Training and Evaluation
+To train the model(s) in the paper, go to the folder:
 
 ## Trained Weights
 
 * Describe any prerequisites, libraries, OS version, etc., needed before installing program.
 * ex. Windows 10
 
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
+## Citation
+If you use this code, please cite our paper:
 ```
-code blocks for commands
+@misc{bharat2021review,
+title={Paper under review}, 
+author={Bharat Mahaur, et al.},
+year={2021},
 ```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
 
 ## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-
+This code is released under the [Apache 2.0 License](LICENSE.md).
