@@ -3,7 +3,7 @@
 - Paper : https://arxiv.org/abs/1512.02325
 - Source code: https://github.com/weiliu89/caffe
 
-## Project Structure
+## Structure
 
 ```
 .
