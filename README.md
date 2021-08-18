@@ -11,8 +11,6 @@ Python | 3.6
 CUDA | 10.1
 Cudnn | 7.6.4
 OpenCV | 4.5.0
-Tensorflow | 1.14, 2.3
-Caffe | 1.0
 
 To install requirements virtualenv and virtualenvwrapper should be available on the target machine.
 
