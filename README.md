@@ -68,10 +68,11 @@ Avaliable soon:
 ## Citation
 If you use this code, please cite our paper:
 ```
-@misc{bharat2021review,
-title={Paper under review}, 
-author={Bharat Mahaur, et al.},
-year={2021},
+@article{,
+title={}, 
+author={},
+year={},
+}
 ```
 
 ## License
