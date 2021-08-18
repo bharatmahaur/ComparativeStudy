@@ -3,7 +3,7 @@
 - Paper : https://arxiv.org/abs/2004.10934
 - Source code: https://github.com/AlexeyAB/darknet
 
-## YOLOv4 Overview
+## Overview
 + Backbone：CSPDarkNet53
 + Neck：SPP，PAN
 + Head：YOLOv3
