@@ -11,7 +11,7 @@ Python | 3.6
 CUDA | 10.1
 Cudnn | 7.6.4
 OpenCV | 4.5.0
-Tensorflow | 2.1+
+Tensorflow | 2.0+
 Caffe | 1.0
 
 To install requirements virtualenv and virtualenvwrapper should be available on the target machine.
@@ -49,14 +49,23 @@ dataset should have the following structure:
 <br> 
 
 ## Mosiac Augmentation
-Go to the mosiac augmentation folder simply run [mosaic](https://github.com/bharatmahaur/ComparativeStudy/blob/main/mosaic%20augmentation/mosaic.py)
+Go to the mosiac augmentation folder simply run [mosaic](https://github.com/bharatmahaur/ComparativeStudy/blob/main/mosaic%20augmentation/mosaic_data.ipynb)
+Some files in sample folder
+Input image from sample folder
+Output image:
+![image](https://github.com/bharatmahaur/ComparativeStudy/blob/main/mosaic%20augmentation/reg_full_1.jpg)
 
 ## Training and Evaluation
-To train the model(s) in the paper, go to the individual folder for furthur instructions.
+To train the model(s) use the mosiac output xml file and go to the individual folder for furthur instructions.
 
 ## Trained Weights
 
 Avaliable at:
+R-FCN
+Mask R-CNN
+SSD
+RetinaNet
+Yolov4
 
 ## Citation
 If you use this code, please cite our paper:
