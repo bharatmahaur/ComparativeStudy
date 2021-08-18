@@ -1,6 +1,6 @@
 # YOLOv4 with CSPDarkNet-53
 
-- Paper YOLOv4: https://arxiv.org/abs/2004.10934
+- Paper : https://arxiv.org/abs/2004.10934
 - Source code: https://github.com/AlexeyAB/darknet
 
 ## YOLOv4 Overview
