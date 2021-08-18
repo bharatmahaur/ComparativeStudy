@@ -58,12 +58,12 @@ To train the model(s) use the mosiac output xml file and go to the individual fo
 
 ## Trained Weights
 
-Avaliable at:
-R-FCN
-Mask R-CNN
-SSD
-RetinaNet
-Yolov4
+Avaliable soon:
+1. R-FCN
+2. Mask R-CNN
+3. SSD
+4. RetinaNet
+5. Yolov4
 
 ## Citation
 If you use this code, please cite our paper:
