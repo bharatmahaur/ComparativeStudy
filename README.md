@@ -48,7 +48,7 @@ dataset should have the following structure:
 
 ## Mosiac Augmentation
 1. Go to the mosiac augmentation folder, run [mosaic_data.ipynb](https://github.com/bharatmahaur/ComparativeStudy/blob/main/mosaic%20augmentation/mosaic_data.ipynb)
-2. Use the downloaded files or [sample](https://github.com/bharatmahaur/ComparativeStudy/tree/main/mosaic%20augmentation/sample) folder 
+2. Use the dataset files or [sample](https://github.com/bharatmahaur/ComparativeStudy/tree/main/mosaic%20augmentation/sample) folder 
 3. Generate xml and output images like:
 
 <img src="https://github.com/bharatmahaur/ComparativeStudy/blob/main/mosaic%20augmentation/reg_full_1.jpg" width="auto" height="250">
