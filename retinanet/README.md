@@ -1,6 +1,6 @@
 # RetinaNet with ResNet-101 FPN
 
-- Paper RetinaNet: https://arxiv.org/abs/1708.02002
+- Paper : https://arxiv.org/abs/1708.02002
 - Source code: https://github.com/facebookresearch/detectron
 
 ## If you want to use this project, you should first create some folders.<br>
