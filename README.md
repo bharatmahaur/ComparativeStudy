@@ -54,7 +54,7 @@ dataset should have the following structure:
 <img src="https://github.com/bharatmahaur/ComparativeStudy/blob/main/mosaic%20augmentation/reg_full_1.jpg" width="auto" height="250">
 
 ## Training and Evaluation
-To train the model(s) use the mosiac output images and xml file and go to the individual folder for furthur instructions.
+To train the model(s) use the mosiac output files and go to the individual folder for furthur instructions.
 
 ## Trained Weights
 
