@@ -61,7 +61,7 @@ To train and evaluate the model(s) use the mosiac output files or use your own c
 We trained these weights on BDD100K, use them for predictions:
 1. R-FCN:  [https://drive.google.com/file/d/11lqFSrRVDZViJCaaKFNivVTi7gPYxLlx/view](https://drive.google.com/file/d/11lqFSrRVDZViJCaaKFNivVTi7gPYxLlx/view?usp=sharing)
 2. Mask R-CNN:  [https://drive.google.com/file/d/1JRm5chovHuNm4pU8czBHnEAj4SXXP2Mz/view](https://drive.google.com/file/d/1JRm5chovHuNm4pU8czBHnEAj4SXXP2Mz/view?usp=sharing)
-3. SSD:
+3. SSD:  [https://drive.google.com/file/d/1SCb_5z1vhTIn3pp-VeA-KmLjejbfhlfI/view?](https://drive.google.com/file/d/1SCb_5z1vhTIn3pp-VeA-KmLjejbfhlfI/view?usp=sharing)
 4. RetinaNet:  [https://drive.google.com/file/d/13P26Bb-9IiyEMx18JNlnvjrSZH-CP8x1/view](https://drive.google.com/file/d/13P26Bb-9IiyEMx18JNlnvjrSZH-CP8x1/view?usp=sharing)
 5. Yolov4:  [https://drive.google.com/file/d/1k-6Y4nGnelSOO7fg6gF6R58Zbu12W4TG/view](https://drive.google.com/file/d/1k-6Y4nGnelSOO7fg6gF6R58Zbu12W4TG/view?usp=sharing)
 
