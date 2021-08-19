@@ -58,12 +58,12 @@ To train the model(s) use the mosiac output files and go to the individual folde
 
 ## Trained Models
 
-Avaliable
+Avaliable weights already trained
 1. R-FCN
 2. Mask R-CNN
 3. SSD
 4. RetinaNet
-5. Yolov4
+5. Yolov4 [https://drive.google.com/file/d/1k-6Y4nGnelSOO7fg6gF6R58Zbu12W4TG/view](https://drive.google.com/file/d/1k-6Y4nGnelSOO7fg6gF6R58Zbu12W4TG/view?usp=sharing)
 
 ## Citation
 If you use this code, please cite our paper:
