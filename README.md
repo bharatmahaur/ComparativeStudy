@@ -2,7 +2,7 @@
 
 This repository is an implementation of a review paper on Python 3 (TensorFlow and Caffe).
 
-## Experimental Requirements
+## Requirements
 
 Name | Supported Versions
 --- | --- |
