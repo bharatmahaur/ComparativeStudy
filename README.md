@@ -58,7 +58,7 @@ To train the model(s) use the mosiac output files and go to the individual folde
 
 ## Trained Models
 
-Avaliable weights already trained
+Avaliable trained weights
 1. R-FCN  [https://drive.google.com/file/d/11lqFSrRVDZViJCaaKFNivVTi7gPYxLlx/view](https://drive.google.com/file/d/11lqFSrRVDZViJCaaKFNivVTi7gPYxLlx/view?usp=sharing)
 2. Mask R-CNN  [https://drive.google.com/file/d/1JRm5chovHuNm4pU8czBHnEAj4SXXP2Mz/view](https://drive.google.com/file/d/1JRm5chovHuNm4pU8czBHnEAj4SXXP2Mz/view?usp=sharing)
 3. SSD
@@ -66,7 +66,7 @@ Avaliable weights already trained
 5. Yolov4  [https://drive.google.com/file/d/1k-6Y4nGnelSOO7fg6gF6R58Zbu12W4TG/view](https://drive.google.com/file/d/1k-6Y4nGnelSOO7fg6gF6R58Zbu12W4TG/view?usp=sharing)
 
 ## Citation
-If you use this code, please cite our paper:
+If you use this code, please cite our paper
 ```
 @article{,
 title={}, 
