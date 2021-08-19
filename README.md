@@ -27,19 +27,19 @@ add2virtualenv ComparativeStudy
 
 ```
 
-## Datasets
-Download the Berkeley Deep Drive (BDD) Object Detection Dataset [here](https://bdd-data.berkeley.edu/). The BDD
-dataset should have the following structure:
+## Dataset
+Download the Berkeley Deep Drive (BDD100K) Object Detection Dataset [here](https://bdd-data.berkeley.edu/). The BDD
+dataset has the following structure:
 <br>
  
-     └── BDD_DATASET_ROOT
+     └── BDD100K_DATASET_ROOT
          ├── info
          |   └── 100k
          |       ├── train
          |       └── val
+         |       └── test         
          ├── labels
          └── images
-                ├── 10K
                 └── 100K
                     ├── test
                     ├── train
@@ -48,17 +48,17 @@ dataset should have the following structure:
 
 ## Mosiac Augmentation
 1. Go to the mosiac augmentation folder, run [mosaic_data.ipynb](https://github.com/bharatmahaur/ComparativeStudy/blob/main/mosaic%20augmentation/mosaic_data.ipynb)
-2. Use the dataset files or [sample](https://github.com/bharatmahaur/ComparativeStudy/tree/main/mosaic%20augmentation/sample) folder 
-3. Generate xml and output images like:
+2. Use the BDD100K downloaded files or [sample](https://github.com/bharatmahaur/ComparativeStudy/tree/main/mosaic%20augmentation/sample) folder 
+3. Generate mosiac xml and output images like:
 
 <img src="https://github.com/bharatmahaur/ComparativeStudy/blob/main/mosaic%20augmentation/reg_full_1.jpg" width="auto" height="250">
 
 ## Training and Evaluation
 To train the model(s) use the mosiac output files and go to the individual folder for furthur instructions.
 
-## Trained Weights
+## Trained Models
 
-Avaliable soon:
+Avaliable
 1. R-FCN
 2. Mask R-CNN
 3. SSD
