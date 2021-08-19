@@ -1,7 +1,7 @@
 # SSD with VGG-16
 
 - Paper : https://arxiv.org/abs/1512.02325
-- Source code: https://github.com/weiliu89/caffe
+- Source code: https://github.com/weiliu89/caffe/tree/ssd
 
 ## Structure
 
