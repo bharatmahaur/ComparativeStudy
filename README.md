@@ -54,7 +54,7 @@ dataset has the following structure:
 <img src="https://github.com/bharatmahaur/ComparativeStudy/blob/main/mosaic%20augmentation/reg_full_1.jpg" width="auto" height="250">
 
 ## Training and Evaluation
-To train and evaluate the model(s) use the mosiac output files and go to the individual folder for furthur instructions.
+To train and evaluate the model(s) use the mosiac output files or use your own custom dataset and go to the individual model folder for furthur instructions.
 
 ## Trained Models
 
