@@ -36,7 +36,7 @@ add2virtualenv ComparativeStudy
 ├─ SSD                   
 ├─ RetinaNet                
 ├─ YOLOv4                   
-└─ LICENSE.md
+├─ LICENSE.md
 └─ README.md
 ```
 
