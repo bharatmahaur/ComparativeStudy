@@ -27,6 +27,19 @@ add2virtualenv ComparativeStudy
 
 ```
 
+## Structure of this repository
+
+```
+├─ Mosiac                    
+├─ R-FCN                  
+├─ Mask R-CNN                   
+├─ SSD                   
+├─ RetinaNet                
+├─ YOLOv4                   
+└─ LICENSE.md
+└─ README.md
+```
+
 ## Dataset
 Download the Berkeley Deep Drive (BDD100K) Object Detection Dataset [here](https://bdd-data.berkeley.edu/). The BDD
 dataset has the following structure:
