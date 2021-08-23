@@ -30,12 +30,12 @@ add2virtualenv ComparativeStudy
 ## Structure
 
 ```
-├─ Mosiac                                  <- downloaded dataset and convert to mosaic images and files for training
-├─ R-FCN                                   <- R-FCN model training and evaluation on metrices
-├─ Mask R-CNN                              <- Mask R-CNN model training and evaluation on metrices
-├─ SSD                                     <- SSD model training and evaluation on metrices
-├─ RetinaNet                               <- RetinaNet model training and evaluation on metrices
-├─ YOLOv4                                  <- YOLOv4 model training and evaluation on metrices
+├─ Mosiac                           <- Download dataset and convert to mosaic output images and xml files for training models
+├─ R-FCN                            <- R-FCN model training and evaluation on metrices
+├─ Mask R-CNN                       <- Mask R-CNN model training and evaluation on metrices
+├─ SSD                              <- SSD model training and evaluation on metrices
+├─ RetinaNet                        <- RetinaNet model training and evaluation on metrices
+├─ YOLOv4                           <- YOLOv4 model training and evaluation on metrices
 ├─ LICENSE.md
 └─ README.md
 ```
