@@ -1,6 +1,6 @@
-# Train deep learning-based models (R-FCN, Mask R-CNN, SSD, RetinaNet and YOLOv4).
+# Train deep learning-based models (R-FCN, Mask R-CNN, SSD, RetinaNet and YOLOv4) for road object detection.
 
-This repository is an implementation of a review paper for road object detection on Python 3 (TensorFlow and Caffe).
+This repository is an implementation of a review paper on Python 3 (TensorFlow and Caffe).
 
 ## Requirements
 
@@ -30,7 +30,7 @@ add2virtualenv ComparativeStudy
 ## Structure
 
 ```
-├─ Mosiac                           <- Download dataset and convert to mosaic output images and xml files for training models
+├─ Mosiac                           <- Convert to mosaic output images and xml files for training models
 ├─ R-FCN                            <- R-FCN model training and evaluation on metrices
 ├─ Mask R-CNN                       <- Mask R-CNN model training and evaluation on metrices
 ├─ SSD                              <- SSD model training and evaluation on metrices
