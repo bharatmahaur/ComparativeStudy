@@ -1,6 +1,6 @@
-# Train deep learning-based models (R-FCN, Mask R-CNN, SSD, RetinaNet and YOLOv4) for road object detection.
+# Train deep learning-based models (R-FCN, Mask R-CNN, SSD, RetinaNet and YOLOv4).
 
-This repository is an implementation of a review paper on Python 3 (TensorFlow and Caffe).
+This repository is an implementation of a review paper for road object detection on Python 3 (TensorFlow and Caffe).
 
 ## Requirements
 
@@ -27,15 +27,15 @@ add2virtualenv ComparativeStudy
 
 ```
 
-## Structure of this repository
+## Structure
 
 ```
-├─ Mosiac                    
-├─ R-FCN                  
-├─ Mask R-CNN                   
-├─ SSD                   
-├─ RetinaNet                
-├─ YOLOv4                   
+├─ Mosiac                                  <- downloaded dataset and convert to mosaic images and files for training
+├─ R-FCN                                   <- R-FCN model training and evaluation on metrices
+├─ Mask R-CNN                              <- Mask R-CNN model training and evaluation on metrices
+├─ SSD                                     <- SSD model training and evaluation on metrices
+├─ RetinaNet                               <- RetinaNet model training and evaluation on metrices
+├─ YOLOv4                                  <- YOLOv4 model training and evaluation on metrices
 ├─ LICENSE.md
 └─ README.md
 ```
@@ -74,7 +74,7 @@ To train and evaluate the model(s) use the mosiac output files or use your own c
 We trained these weights on BDD100K, use them for predictions:
 1. R-FCN:  [https://drive.google.com/file/d/11lqFSrRVDZViJCaaKFNivVTi7gPYxLlx/view](https://drive.google.com/file/d/11lqFSrRVDZViJCaaKFNivVTi7gPYxLlx/view?usp=sharing)
 2. Mask R-CNN:  [https://drive.google.com/file/d/1JRm5chovHuNm4pU8czBHnEAj4SXXP2Mz/view](https://drive.google.com/file/d/1JRm5chovHuNm4pU8czBHnEAj4SXXP2Mz/view?usp=sharing)
-3. SSD:  [https://drive.google.com/file/d/1SCb_5z1vhTIn3pp-VeA-KmLjejbfhlfI/view?](https://drive.google.com/file/d/1SCb_5z1vhTIn3pp-VeA-KmLjejbfhlfI/view?usp=sharing)
+3. SSD:  [https://drive.google.com/file/d/1SCb_5z1vhTIn3pp-VeA-KmLjejbfhlfI/view](https://drive.google.com/file/d/1SCb_5z1vhTIn3pp-VeA-KmLjejbfhlfI/view?usp=sharing)
 4. RetinaNet:  [https://drive.google.com/file/d/13P26Bb-9IiyEMx18JNlnvjrSZH-CP8x1/view](https://drive.google.com/file/d/13P26Bb-9IiyEMx18JNlnvjrSZH-CP8x1/view?usp=sharing)
 5. Yolov4:  [https://drive.google.com/file/d/1k-6Y4nGnelSOO7fg6gF6R58Zbu12W4TG/view](https://drive.google.com/file/d/1k-6Y4nGnelSOO7fg6gF6R58Zbu12W4TG/view?usp=sharing)
 
