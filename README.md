@@ -30,7 +30,7 @@ add2virtualenv ComparativeStudy
 ## Structure
 
 ```
-├─ Mosiac                           <- Convert to mosaic output images and xml files for training models
+├─ Mosiac                           <- Convert to mosaic images and xml files for training models
 ├─ R-FCN                            <- R-FCN model training and evaluation on metrices
 ├─ Mask R-CNN                       <- Mask R-CNN model training and evaluation on metrices
 ├─ SSD                              <- SSD model training and evaluation on metrices
