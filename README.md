@@ -61,7 +61,7 @@ dataset has the following structure:
 
 ## Mosiac Augmentation
 1. Go to the mosiac augmentation folder, run [mosaic_data.ipynb](https://github.com/bharatmahaur/ComparativeStudy/blob/main/mosaic%20augmentation/mosaic_data.ipynb)
-2. Use the BDD100K downloaded files or [sample](https://github.com/bharatmahaur/ComparativeStudy/tree/main/mosaic%20augmentation/sample) folder 
+2. Use the BDD100K downloaded files or try [sample](https://github.com/bharatmahaur/ComparativeStudy/tree/main/mosaic%20augmentation/sample) folder 
 3. Generate mosiac xml and output images like:
 
 <img src="https://github.com/bharatmahaur/ComparativeStudy/blob/main/mosaic%20augmentation/reg_full_1.jpg" width="auto" height="250">
@@ -71,7 +71,7 @@ To train and evaluate the model(s) use the mosiac output files or use your own c
 
 ## Trained Models
 
-We trained these weights on BDD100K, use them for predictions:
+We trained these models on BDD100K, use the weights for predictions:
 1. R-FCN:  [https://drive.google.com/file/d/11lqFSrRVDZViJCaaKFNivVTi7gPYxLlx/view](https://drive.google.com/file/d/11lqFSrRVDZViJCaaKFNivVTi7gPYxLlx/view?usp=sharing)
 2. Mask R-CNN:  [https://drive.google.com/file/d/1JRm5chovHuNm4pU8czBHnEAj4SXXP2Mz/view](https://drive.google.com/file/d/1JRm5chovHuNm4pU8czBHnEAj4SXXP2Mz/view?usp=sharing)
 3. SSD:  [https://drive.google.com/file/d/1SCb_5z1vhTIn3pp-VeA-KmLjejbfhlfI/view](https://drive.google.com/file/d/1SCb_5z1vhTIn3pp-VeA-KmLjejbfhlfI/view?usp=sharing)
