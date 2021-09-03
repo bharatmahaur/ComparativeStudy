@@ -1,8 +1,8 @@
 # Mosaic Data Augmentation
 
-YoloV4 use Mosaic for Augmentation. So I just write a script for generate mosaic image.
+Mosaic data augmentation combines 4 training images into one in certain ratios (instead of only two in CutMix). Mosaic [video](https://www.youtube.com/watch?v=V6uj-eGmE7g) is the first new data augmentation technique introduced in YOLOv4. This allows for the model to learn how to identify objects at a smaller scale than normal. It also is useful in training to significantly reduce the need for a large mini-batch size.
 
-Demo1 with bbox:
+Demo with bbox:
 
 ![image](https://github.com/bharatmahaur/ComparativeStudy/blob/main/mosaic%20augmentation/reg_full_1.jpg)
 
