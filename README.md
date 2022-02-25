@@ -1,6 +1,6 @@
 # Road object detection: a comparative study of deep learning-based algorithms.
 
-This repository is an implementation of a survey article on Python 3 (TensorFlow and Caffe). We train deep learning-based models (R-FCN, Mask R-CNN, SSD, RetinaNet and YOLOv4) for road object detection on BDD100K dataset.<br />
+This repository is an implementation of a review article on Python 3 (TensorFlow and Caffe). We train deep learning-based models (R-FCN, Mask R-CNN, SSD, RetinaNet and YOLOv4) for road object detection on BDD100K dataset.<br />
 Please find the paper here: [https://link.springer.com/article/10.1007/s11042-022-12447-5](https://link.springer.com/article/10.1007/s11042-022-12447-5)
 
 ## Requirements
@@ -87,6 +87,7 @@ If you use this code, please cite our paper:
  author={Bharat Mahaur et al.},
  journal={Multimedia Tools and Applications},
  year={2022},
+ publisher={Springer}
 }
 ```
 
