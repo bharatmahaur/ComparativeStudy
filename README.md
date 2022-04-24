@@ -82,10 +82,11 @@ We trained these models on BDD100K, use the weights for predictions:
 ## Citation
 If you use this code, please cite our paper:
 ```
-@article{mahaur2022comparative,
+@article{mahaur2022road,
  title={Road object detection: a comparative study of deep learning-based algorithms}, 
- author={Bharat Mahaur et al.},
+ author={Mahaur, Bharat and others},
  journal={Multimedia Tools and Applications},
+ pages={1--36},
  year={2022},
  publisher={Springer}
 }
