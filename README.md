@@ -2,7 +2,7 @@
 
 This repository is an implementation of a review article on Python 3 (TensorFlow and Caffe). We train deep learning-based models (R-FCN, Mask R-CNN, SSD, RetinaNet and YOLOv4) for road object detection on BDD100K dataset.<br />
 
-Please find the paper here: [https://link.springer.com/article/10.1007/s11042-022-12447-5](https://link.springer.com/article/10.1007/s11042-022-12447-5)
+Please find the paper here: [https://link.springer.com/article/10.1007/s11042-022-12447-5](https://link.springer.com/article/10.1007/s11042-022-12447-5).
 
 ## Requirements
 
