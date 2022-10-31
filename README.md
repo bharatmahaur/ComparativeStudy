@@ -26,7 +26,6 @@ mkvirtualenv ComparativeStudy
 
 # Add library path to virtual env
 add2virtualenv ComparativeStudy
-
 ```
 
 ## Structure
